@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #1c1c1c;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.header a {
+  color: #00ff7f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #00ff7f;
+  border-bottom: 1px solid #00ff7f;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "✔️ ";
+  color: #00ff7f;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #ccc;
+}
