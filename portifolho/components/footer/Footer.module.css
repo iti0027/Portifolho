@@ -1,0 +1,16 @@
+.divFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 300;
+}
+
+.contain{
+    background-color: #2a2a2a;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-weight: 300;
+}

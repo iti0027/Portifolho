@@ -1,0 +1,13 @@
+.card {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.paragraph{
+    color: #34C344;
+}

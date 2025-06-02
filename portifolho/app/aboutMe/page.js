@@ -1,7 +1,11 @@
+import Header from "@/components/header/Header"
+import Footer from "@/components/footer/Footer"
+
 export default function aboutMe() {
   return (
     <div className="container">
-      <div className="card">
+      <Header />
+      <div >
         <h1>About Me</h1>
         <p><em>Hi, I'm Ítalo Cézar - just one more soul in this vast world, navigating the thrilling adventure we call "Technology". But let`s be honest, that`s only part of who I am. Beyond the screen and code, I`m someone who truly lives for experiencies that creata lasting, joyful, and meaningful memories.</em></p>
         <p><em>
@@ -10,7 +14,7 @@ export default function aboutMe() {
       </div>
 
     <section class="card">
-      <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+      <div>
         <div>
           <h3>Hobbies</h3>
           <ul>
@@ -50,10 +54,7 @@ export default function aboutMe() {
       </div>
     </section>
 
-        <div className="card">
-            <h3>Contacts</h3>
-            <p>📧 italovercoza27@gmail.com</p>
-        </div>
+    <Footer />
     </div>
   )
 }
