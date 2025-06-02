@@ -12,6 +12,7 @@ export default function Header(){
           <Link href="/aboutMe" className={styles.Link}>About me</Link>
           <Link href="/abilities" className={styles.Link}>Abilities</Link>
           <Link href="/projects" className={styles.Link}>Projects</Link>
+          <Link href="/api" className={styles.Link}>API</Link>
         </div>
     </header>)
 }
