@@ -8,24 +8,7 @@ export default function API() {
   const [getDog, setGetDog] = useState("");
   const [nameDog, setNameDog] = useState("");
 
-  const dogBreeds = [
-    "affenpinscher",
-    "african",
-    "airedale",
-    "akita",
-    "appenzeller",
-    "australian/kelpie",
-    "australian/shepherd",
-    "basenji",
-    "beagle",
-    "bluetick",
-    "borzoi",
-    "bouvier",
-    "boxer",
-    "briard",
-    "bulldog/boston",
-    "bulldog/english",
-    ,
+  const dogBreeds = ["affenpinscher","african","airedale","akita","appenzeller","australian/kelpie","australian/shepherd","basenji","beagle","bluetick","borzoi","bouvier","boxer","briard","bulldog/boston","bulldog/english",
   ];
 
   const getAPI = async () => {
